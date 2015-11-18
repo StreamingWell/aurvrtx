@@ -1,3 +1,4 @@
+<% if user_signed_in? %>  
 <%= render 'layouts/header' %>  
 <%= render 'layouts/orkambi' %>  
 
@@ -41,3 +42,9 @@
 
 <%= render 'layouts/disclaimer' %>
 <%= render 'layouts/footer' %>  
+
+<% else %>
+
+<%= render 'layouts/landing' %>  
+
+<% end %>
