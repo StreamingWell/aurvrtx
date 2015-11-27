@@ -6,7 +6,7 @@ class PagesController < ApplicationController
   def home
   end
 
-  def live
+  def webcast
     @message = Message.new
   end
   
