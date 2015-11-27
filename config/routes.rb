@@ -1,7 +1,7 @@
 Openmicrosite::Application.routes.draw do
 
   # Home
-  root :to => 'pages#about'
+  root :to => 'pages#webcast'
 
   # Authentication
   #devise_for :admins
