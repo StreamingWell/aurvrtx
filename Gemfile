@@ -9,6 +9,7 @@ gem 'thin'
 gem 'google-analytics-rails'
 gem 'metamagic'
 gem 'magnific-popup-rails'
+gem "placeholder-gem"
 
 group :production do
 	gem 'pg'
