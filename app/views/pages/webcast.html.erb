@@ -1,4 +1,4 @@
-<% if user_signed_in? %>  
+<% if user_signed_in?  %>  
 <%= render 'layouts/header' %>  
 <%= render 'layouts/orkambi' %> 
 <div class="orkambi-brand">
@@ -46,6 +46,10 @@
 
 <%= render 'layouts/disclaimer' %>
 <%= render 'layouts/footer' %>  
+
+<% elsif cookies[:user_choice] == 'yes' %>
+   
+<%= render 'layouts/home' %>  
 
 <% else %>
 
