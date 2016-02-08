@@ -11,6 +11,7 @@ gem 'metamagic'
 gem 'magnific-popup-rails'
 gem "placeholder-gem"
 
+
 group :production do
 	gem 'pg'
   gem 'rails_12factor'

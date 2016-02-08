@@ -105,9 +105,9 @@ class User < ActiveRecord::Base
 
   private
 
-  	def send_admin_notification
+    def send_admin_notification
       AdminMailer.registration_notification(self).deliver
-  	end
+    end
 end
 
 

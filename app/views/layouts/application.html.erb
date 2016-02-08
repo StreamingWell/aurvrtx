@@ -11,10 +11,8 @@
     <!-- <script src='http://ico-cookie-warning.googlecode.com/svn/trunk/ico_cookies.js'></script> -->
     <%= analytics_init if Rails.env.production? %>
     <%= favicon_link_tag 'favicon.ico' %>
-
   </head>
-  <body> 
-
+  <body>  
     <%= yield %>
     <!-- Modal to report AE -->
     <div class="modal fade" style="margin-top: 0px;" id="AEModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static">
